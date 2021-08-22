@@ -1,0 +1,4 @@
+ru\soa\reader\VoiceReader.class
+ru\soa\reader\config\TargetAndSourceLinesConfig.class
+ru\soa\reader\config\SoundLine.class
+ru\soa\Main.class
