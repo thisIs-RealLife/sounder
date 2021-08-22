@@ -35,7 +35,7 @@ public class Vosk {
         while ((nbytes = ais.read(b)) >= 0) {
            recognizer.acceptWaveForm(b, nbytes);
         }
-        System.out.println(recognizer.getFinalResult() + " final");
+        System.out.println(recognizer.getFinalResult() + "final");
     }
 
     public void close() {

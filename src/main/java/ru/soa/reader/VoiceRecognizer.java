@@ -56,7 +56,7 @@ public class VoiceRecognizer extends RecognizerConfig {
             while (true) {
                 i++;
                 microphone.read(data, 0, data.length);
-                out.write(data, 0, data.length);
+                out.write(data);
                 if (i == 10) {
                     vosk.recognize(convertToWave(out.toByteArray()));
                     i = 0;
